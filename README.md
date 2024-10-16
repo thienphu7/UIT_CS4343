@@ -1,5 +1,7 @@
-1. Question 1: Tower of Hanoi
+1. Homework
 
+
+1.1. Question 1: Tower of Hanoi
    
 In the classic problem of the Towers of Hanoi, you have 3 towers and N disks of different sizes which can slide onto any tower. The puzzle starts with disks sorted in ascending order of size from top to bottom (i.e., each disk sits on top of an even larger one).
 
@@ -17,7 +19,8 @@ Constraints:
 
 (3) A disk cannot be placed on top of a smaller disk. Write a program to move the disks from the first tower to the last using Stacks.
 
-2. Question 2: Browser History Management
+
+1.2. Question 2: Browser History Management
    
 Problem Statement:
 
@@ -43,11 +46,12 @@ browser.visit("daa.uit.edu.vn")
 
 browser.back() // returns "uit.edu.vn"
 
-3. Question 3
+
+1.3. Question 3
    
 The problem involves a queue of n people, each with a distinct height, arranged from left to right. Given an array called heights, where heights[i] represents the height of the i-th person, the task is to determine how many people each person can see to their right. A person can see another if everyone in between is shorter than both of them. Specifically, the i-th person can see the j-th person if i < j and all heights between them are less than both heights[i] and heights[j]. The solution should return an array answer, where answer[i] indicates the number of people visible to the i-th person on their right.
 
-3.1 Example 1
+1.3.1. Example 1
 
 Input: heights = [10,6,8,5,11,9]
 
@@ -67,7 +71,7 @@ Person 4 can see person 5.
 
 Person 5 can see no one since nobody is to the right of them.
 
-3.2 Example 2
+1.3.2. Example 2
 
 Input: heights = [5,1,2,3,10]
 
